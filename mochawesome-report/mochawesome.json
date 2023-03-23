@@ -1,0 +1,584 @@
+{
+  "stats": {
+    "suites": 11,
+    "tests": 15,
+    "passes": 13,
+    "pending": 2,
+    "failures": 0,
+    "start": "2023-03-23T09:49:42.556Z",
+    "end": "2023-03-23T09:49:47.821Z",
+    "duration": 5265,
+    "testsRegistered": 15,
+    "passPercent": 100,
+    "pendingPercent": 13.333333333333334,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bc4ecb91-2b3e-471e-8f84-56ba4b6508ac",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [
+        {
+          "title": "\"before all\" hook in \"{root}\"",
+          "fullTitle": "\"before all\" hook in \"{root}\"",
+          "timedOut": false,
+          "duration": 426,
+          "state": null,
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+          "err": {},
+          "uuid": "7655348d-e4a7-4d4c-80c9-291e5f0920cf",
+          "parentUUID": "bc4ecb91-2b3e-471e-8f84-56ba4b6508ac",
+          "isHook": true,
+          "skipped": false
+        }
+      ],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ecddf97d-82af-49dd-b1e6-4f7c4802492e",
+          "title": "Users Posts Asynch_wait",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\asynch_wait .js",
+          "file": "\\test\\asynch_wait .js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "GET users/:id",
+              "fullTitle": "Users Posts Asynch_wait GET users/:id",
+              "timedOut": false,
+              "duration": 558,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "cba9cff5-4c28-4012-97f8-a30b4f585470",
+              "parentUUID": "ecddf97d-82af-49dd-b1e6-4f7c4802492e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cba9cff5-4c28-4012-97f8-a30b4f585470"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 558,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "8d1eb81a-e766-4f9f-9783-6fe74b044bbd",
+          "title": "Negative Tests",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\negativeTest.js",
+          "file": "\\test\\negativeTest.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "401 Authentication Failed",
+              "fullTitle": "Negative Tests 401 Authentication Failed",
+              "timedOut": false,
+              "duration": 296,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "6068b35f-3b8d-4bec-99d3-1d4fe37ac8dc",
+              "parentUUID": "8d1eb81a-e766-4f9f-9783-6fe74b044bbd",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "422 Data Wrong",
+              "fullTitle": "Negative Tests 422 Data Wrong",
+              "timedOut": false,
+              "duration": 277,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "3c7812e6-6404-4a93-ac8f-412cbec18afd",
+              "parentUUID": "8d1eb81a-e766-4f9f-9783-6fe74b044bbd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6068b35f-3b8d-4bec-99d3-1d4fe37ac8dc",
+            "3c7812e6-6404-4a93-ac8f-412cbec18afd"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 573,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "916ae260-4455-4cd7-aff3-114c855b0a40",
+          "title": "Users",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_advanced.js",
+          "file": "\\test\\user_advanced.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "4c243295-76ee-4d43-b006-f5c5d1f2cb45",
+              "title": "POST",
+              "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_advanced.js",
+              "file": "\\test\\user_advanced.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "POST /users",
+                  "fullTitle": "Users POST POST /users",
+                  "timedOut": false,
+                  "duration": 429,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// generate random number `test-${Math.floor(Math.random() * 9999)}@email.com`\nvar data = {\n  \"name\": \"Somayaji\",\n  \"email\": \"test-\".concat(Math.floor(Math.random() * 9999), \"@email.com\"),\n  \"gender\": \"female\",\n  \"status\": \"inactive\"\n};\nreturn _common[\"default\"].post('users').set(\"Authorization\", \"Bearer \".concat(TOKEN)).send(data).then(function (res) {\n  console.log(res.body['email']);\n  (0, _chai.expect)(res.status).to.equals(201);\n  (0, _chai.expect)(res.body['status']).to.be.eq(data['status']);\n  (0, _chai.expect)(res.body['email']).to.be.eq(data['email']);\n  (0, _chai.expect)(res.body['name']).to.be.eq(data['name']);\n  (0, _chai.expect)(res.body['gender']).to.be.eq(data['gender']);\n  (0, _chai.expect)(res.body).to.deep.include(data);\n  userId = res.body['id'];\n  console.log(userId);\n});",
+                  "err": {},
+                  "uuid": "2388f89d-cd6b-4a5d-887c-e91136c71f64",
+                  "parentUUID": "4c243295-76ee-4d43-b006-f5c5d1f2cb45",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "2388f89d-cd6b-4a5d-887c-e91136c71f64"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 429,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "4611e58f-a60d-407e-87e8-5e1c2bca1ebc",
+              "title": "GET",
+              "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_advanced.js",
+              "file": "\\test\\user_advanced.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "GET /users",
+                  "fullTitle": "Users GET GET /users",
+                  "timedOut": false,
+                  "duration": 300,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return _common[\"default\"].get(\"users?access-token=\".concat(TOKEN)).then(function (res) {\n  (0, _chai.expect)(res.body).to.be.not[\"null\"];\n});",
+                  "err": {},
+                  "uuid": "c0d46628-4b9b-4072-8fbc-9964cc48cf77",
+                  "parentUUID": "4611e58f-a60d-407e-87e8-5e1c2bca1ebc",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "GET /users/:id",
+                  "fullTitle": "Users GET GET /users/:id",
+                  "timedOut": false,
+                  "duration": 257,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return _common[\"default\"].get(\"users/\".concat(userId, \"?access-token=\").concat(TOKEN, \"&page=1\")).then(function (res) {\n  //  console.log(res.body['id'])\n  (0, _chai.expect)(String(res.body['id'])).to.be.eq(\"\".concat(userId));\n});",
+                  "err": {},
+                  "uuid": "c0bd42fc-db67-4874-9db8-d0b4f0dfd5af",
+                  "parentUUID": "4611e58f-a60d-407e-87e8-5e1c2bca1ebc",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "GET /users/ with query parameters",
+                  "fullTitle": "Users GET GET /users/ with query parameters",
+                  "timedOut": false,
+                  "duration": 270,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return _common[\"default\"].get(\"users/?access-token=\".concat(TOKEN, \"&page=5&gender=female&status=active\")).then(function (res) {\n  //      console.log(res.body)\n  (0, _chai.expect)(res.body).to.not.be[\"null\"];\n  res.body.forEach(function (data) {\n    //      console.log(data)\n    (0, _chai.expect)(data.gender).to.be.eq('female');\n    (0, _chai.expect)(data.status).to.be.eq('active');\n  });\n});",
+                  "err": {},
+                  "uuid": "ae582c7b-c5a8-4378-9aa0-7370122ea1d1",
+                  "parentUUID": "4611e58f-a60d-407e-87e8-5e1c2bca1ebc",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c0d46628-4b9b-4072-8fbc-9964cc48cf77",
+                "c0bd42fc-db67-4874-9db8-d0b4f0dfd5af",
+                "ae582c7b-c5a8-4378-9aa0-7370122ea1d1"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 827,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "87f6079b-47b0-45b6-bd8b-1533da75259c",
+              "title": "PUT ",
+              "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_advanced.js",
+              "file": "\\test\\user_advanced.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "PUT  users/:id",
+                  "fullTitle": "Users PUT  PUT  users/:id",
+                  "timedOut": false,
+                  "duration": 318,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var data = {\n  \"name\": \"Luccy \".concat(Math.floor(Math.random() * 9999)),\n  \"status\": \"inactive\"\n};\nreturn _common[\"default\"].put(\"users/\".concat(userId)).set(\"Authorization\", \"Bearer \".concat(TOKEN)).send(data).then(function (res) {\n  console.log(res.body);\n  (0, _chai.expect)(res.body['name']).to.eq(data['name']);\n  (0, _chai.expect)(res.body['status']).to.eq(data['status']);\n  (0, _chai.expect)(res.body).to.deep.include(data);\n  (0, _chai.expect)(res.status).to.be.eq(200);\n});",
+                  "err": {},
+                  "uuid": "c47c723e-ed0e-4b0f-af9d-e16d8dbb8213",
+                  "parentUUID": "87f6079b-47b0-45b6-bd8b-1533da75259c",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c47c723e-ed0e-4b0f-af9d-e16d8dbb8213"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 318,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            },
+            {
+              "uuid": "4fbfe02a-0794-4606-9c7e-c3d457712206",
+              "title": "DELETE Method",
+              "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_advanced.js",
+              "file": "\\test\\user_advanced.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "DELETE users/:id",
+                  "fullTitle": "Users DELETE Method DELETE users/:id",
+                  "timedOut": false,
+                  "duration": 326,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "return _common[\"default\"][\"delete\"](\"users/\".concat(userId)).set(\"Authorization\", \"Bearer \".concat(TOKEN)).then(function (res) {\n  (0, _chai.expect)(res.body).to.be.empty;\n});",
+                  "err": {},
+                  "uuid": "167c0c6b-3c1c-4d15-bd49-3bf91cd7982c",
+                  "parentUUID": "4fbfe02a-0794-4606-9c7e-c3d457712206",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "167c0c6b-3c1c-4d15-bd49-3bf91cd7982c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 326,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 5000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "64b4fc64-897e-4be2-8a0b-cf866f971ba1",
+          "title": "DELETE Method",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_DELETE.js",
+          "file": "\\test\\user_DELETE.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "DELETE users/:id",
+              "fullTitle": "DELETE Method DELETE users/:id",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "a08cb0aa-997d-44c4-a1a7-3d767f3cdaf6",
+              "parentUUID": "64b4fc64-897e-4be2-8a0b-cf866f971ba1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "a08cb0aa-997d-44c4-a1a7-3d767f3cdaf6"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "8ef4125b-ad69-4050-9ebc-189df9fc062c",
+          "title": "Users",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_GET.js",
+          "file": "\\test\\user_GET.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "GET /users",
+              "fullTitle": "Users GET /users",
+              "timedOut": false,
+              "duration": 335,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return _common[\"default\"].get(\"users?access-token=\".concat(TOKEN)).then(function (res) {\n  (0, _chai.expect)(res.body).to.be.not[\"null\"];\n});",
+              "err": {},
+              "uuid": "a25db2b5-6d10-4d83-aafc-33225f1d8bd2",
+              "parentUUID": "8ef4125b-ad69-4050-9ebc-189df9fc062c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "GET /users/:id",
+              "fullTitle": "Users GET /users/:id",
+              "timedOut": false,
+              "duration": 421,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return _common[\"default\"].get(\"users/314405?access-token=\".concat(TOKEN, \"&page=1\")).then(function (res) {\n  //  console.log(res.body['id'])\n  (0, _chai.expect)(res.body['id']).to.be.eq(314405);\n});",
+              "err": {},
+              "uuid": "d576c2a1-0fa7-4a37-9867-f1c6bf1d5e22",
+              "parentUUID": "8ef4125b-ad69-4050-9ebc-189df9fc062c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "GET /users/ with query parameters",
+              "fullTitle": "Users GET /users/ with query parameters",
+              "timedOut": false,
+              "duration": 379,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return _common[\"default\"].get(\"users/?access-token=\".concat(TOKEN, \"&page=5&gender=female&status=active\")).then(function (res) {\n  //      console.log(res.body)\n  (0, _chai.expect)(res.body).to.not.be[\"null\"];\n  res.body.forEach(function (data) {\n    //      console.log(data)\n    (0, _chai.expect)(data.gender).to.be.eq('female');\n    (0, _chai.expect)(data.status).to.be.eq('active');\n  });\n});",
+              "err": {},
+              "uuid": "66f01972-0d0a-4313-bb8e-a098cebab1db",
+              "parentUUID": "8ef4125b-ad69-4050-9ebc-189df9fc062c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a25db2b5-6d10-4d83-aafc-33225f1d8bd2",
+            "d576c2a1-0fa7-4a37-9867-f1c6bf1d5e22",
+            "66f01972-0d0a-4313-bb8e-a098cebab1db"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1135,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "4150b015-ab3b-4ef9-8a28-29774915c2eb",
+          "title": "POST Method",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_POST.js",
+          "file": "\\test\\user_POST.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "POST /users",
+              "fullTitle": "POST Method POST /users",
+              "timedOut": false,
+              "duration": 629,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// generate random number `test-${Math.floor(Math.random() * 9999)}@email.com`\nvar data = {\n  \"name\": \"Somayaji\",\n  \"email\": \"test-\".concat(Math.floor(Math.random() * 9999), \"@email.com\"),\n  \"gender\": \"female\",\n  \"status\": \"inactive\"\n};\nreturn _common[\"default\"].post('users').set(\"Authorization\", \"Bearer \".concat(TOKEN)).send(data).then(function (res) {\n  console.log(res.body['email']);\n  (0, _chai.expect)(res.status).to.equals(201);\n  (0, _chai.expect)(res.body['status']).to.be.eq(data['status']);\n  (0, _chai.expect)(res.body['email']).to.be.eq(data['email']);\n  (0, _chai.expect)(res.body['name']).to.be.eq(data['name']);\n  (0, _chai.expect)(res.body['gender']).to.be.eq(data['gender']);\n  //Deep to test all\n  (0, _chai.expect)(res.body).to.deep.include(data);\n});",
+              "err": {},
+              "uuid": "43c98507-7fd5-46f7-a650-e0a5a53d0122",
+              "parentUUID": "4150b015-ab3b-4ef9-8a28-29774915c2eb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "43c98507-7fd5-46f7-a650-e0a5a53d0122"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 629,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "1756f2f9-65ce-433d-93fc-e8f02a6915c0",
+          "title": "PUT ",
+          "fullFile": "C:\\Users\\ViSHAL BHATT\\Desktop\\Automation Project\\SUPER_TEST\\test\\user_PUT.js",
+          "file": "\\test\\user_PUT.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "PUT  users/:id",
+              "fullTitle": "PUT  PUT  users/:id",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "0c3ee952-00db-4ad5-bac6-e0bc9c48f268",
+              "parentUUID": "1756f2f9-65ce-433d-93fc-e8f02a6915c0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "0c3ee952-00db-4ad5-bac6-e0bc9c48f268"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
